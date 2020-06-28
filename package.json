@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "Elvis Lee",
@@ -19,7 +20,9 @@
     "gravatar": "^1.8.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.16",
-    "request": "^2.88.2"
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.2",
+    "uuid": "^8.1.0"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
