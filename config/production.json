@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://elvislee:bpWJjU1l1wlsGJtS@cluster0-4dvcd.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "averysecrettoken",
+  "githubClientId": "0d4c72f9d821d1c49a8d",
+  "githubSecret": "8585a4298c9143ab9dae9363380648f9e23306f5"
+}
